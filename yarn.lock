@@ -1722,7 +1722,7 @@ __metadata:
     "@swc-node/register": "npm:~1.6.7"
     "@swc/core": "npm:~1.5.7"
     "@types/inquirer": "npm:^8.2.5"
-    "@types/node": "npm:18.7.1"
+    "@types/node": "npm:20.14.8"
     "@types/tar": "npm:4.0.3"
     "@typescript-eslint/eslint-plugin": "npm:^6.9.1"
     "@typescript-eslint/parser": "npm:^7.9.0"
@@ -2638,10 +2638,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.7.1":
-  version: 18.7.1
-  resolution: "@types/node@npm:18.7.1"
-  checksum: 8e800f88f458ea0c0014dfb7719455fdcf325f3e9177283d061b26e26599aa0beb71550914823585cf61b3d04abb9b9e5923b22a4c07016113fc304ba53ae2e3
+"@types/node@npm:20.14.8":
+  version: 20.14.8
+  resolution: "@types/node@npm:20.14.8"
+  dependencies:
+    undici-types: "npm:~5.26.4"
+  checksum: 06d4643fa3b179b41fe19f9c75c240278ca1f7a313b3b837bc36ea119499c7ad77f06bbe72694ac04aa91ec77fe747baa09b889f4c435450c1724a26bd55f160
   languageName: node
   linkType: hard
 
